@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<h2 align="center"> Welcome to music </h2>
+<div align="center">
+  <!--  <img th:src="${music1.img}">
+    <h4 th:text="${music1.name}"></h4>
+
+    <div> <h1>and</h1>  </div>-->
+    <iframe width="560" height="315" th:src="${music.img}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <!--  <img th:src="${music.img}">-->
+    <h4 th:text="${music.name}"></h4>
+</div>
+</body>
+</html>
